@@ -1,7 +1,7 @@
 # README - Webmefy Coding Test
 This project is based on the Webmefy coding test provided at [Webmefy Coding Test Instructions][link-id].
 
-[link-id]: "https:pablo.com"
+[link-id]:https://technical-test.webmefy.io/webmefy/instructions
 
 ## Project Overview
 This project consists of two main components:
