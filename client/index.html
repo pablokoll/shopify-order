@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webmefy Coding Test</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <main class="main-container">
+        <header class="header">
+            <div class="header-title">
+                <h1 id="order-id">Order</h1>
+                <div class="header-status-container">
+                    <span id="header-financial-status" class="header-financial-status"></span>
+                    <span id="header-fulfillment-status" class="header-fulfillment-status"></span>
+                </div>
+            </div>
+            <p id="created-at" class="header-created-at"></p>
+        </header>
+        <article class="order-container">
+            <section id="order-content" class="order-content">
+                <div id="order-items" class="container">
+                </div>
+                <div id="order-summary" class="container"></div>
+            </section>
+            <aside class="aside">
+                <div id="customer-info" class="container"></div>
+                <div id="contact-info" class="container"></div>
+                <div id="shipping-info" class="container"></div>
+                <div id="billing-info" class="container"></div>
+                <div id="notes" class="container"></div>
+            </aside>
+        </article>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
